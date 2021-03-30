@@ -14,6 +14,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant Unicase');
 
 	body {	
+		font-family:"Cormorant Unicase";
 		background-image: url("n1.jpg");
 		background-repeat: no-repeat;
 		background-attachment: fixed; 
