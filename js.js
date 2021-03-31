@@ -73,14 +73,14 @@ function collisionDetection() {
 function drawBall() {
   ctx.beginPath();
   ctx.arc(x, y, ballRadius, 0, Math.PI*2);
-  ctx.fillStyle ="#ffff00";
+  ctx.fillStyle ="#999966";
   ctx.fill();
   ctx.closePath();
 }
 function drawPaddle() {
   ctx.beginPath();
   ctx.rect(paddleX, canvas.height-paddleHeight, paddleWidth, paddleHeight);
-  ctx.fillStyle ="#ffff00";
+  ctx.fillStyle ="#999966";
   ctx.fill();
   ctx.closePath();
 }
